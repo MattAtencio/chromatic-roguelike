@@ -1,0 +1,38 @@
+@import "tailwindcss";
+:root {
+  --color-bg-primary: #0a0a14;
+  --color-bg-secondary: #0f0f1a;
+  --color-bg-tertiary: #141422;
+  --color-surface-default: #1a1a2e;
+  --color-surface-raised: #22223a;
+  --color-surface-overlay: #2a2a44;
+  --color-accent-primary: #a855f7;
+  --color-accent-secondary: #6366f1;
+  --color-accent-success: #4ade80;
+  --color-accent-warning: #f59e0b;
+  --color-accent-error: #ef4444;
+  --color-text-primary: #e8e8f0;
+  --color-text-secondary: #a0a0c0;
+  --color-text-muted: #6b6b8a;
+  --color-text-inverse: #0a0a14;
+}
+@theme inline {
+  --color-bg-primary: var(--color-bg-primary);
+  --color-bg-secondary: var(--color-bg-secondary);
+  --color-bg-tertiary: var(--color-bg-tertiary);
+  --color-surface-default: var(--color-surface-default);
+  --color-surface-raised: var(--color-surface-raised);
+  --color-surface-overlay: var(--color-surface-overlay);
+  --color-accent-primary: var(--color-accent-primary);
+  --color-accent-secondary: var(--color-accent-secondary);
+  --color-accent-success: var(--color-accent-success);
+  --color-accent-warning: var(--color-accent-warning);
+  --color-accent-error: var(--color-accent-error);
+  --color-text-primary: var(--color-text-primary);
+  --color-text-secondary: var(--color-text-secondary);
+  --color-text-muted: var(--color-text-muted);
+  --color-text-inverse: var(--color-text-inverse);
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; overflow-x: hidden; }
+body { background: var(--color-bg-primary); color: var(--color-text-primary); font-family: system-ui, -apple-system, sans-serif; -webkit-font-smoothing: antialiased; }
