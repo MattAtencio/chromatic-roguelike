@@ -1,0 +1,10 @@
+{
+  "$schema": "https://raw.githubusercontent.com/MattAtencio/portfolio/main/schemas/project.schema.json",
+  "id": "chromatic-roguelike",
+  "name": "Chromatic Roguelike",
+  "kind": "project",
+  "type": "game",
+  "status": "active",
+  "group": "games-strategy",
+  "tags": ["strategy", "public"]
+}
